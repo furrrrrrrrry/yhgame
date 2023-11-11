@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>二进制数组异或游戏</title>
+    <style>
+        #game-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div id="game-container">
+        <input type="number" id="array-length-input" placeholder="输入数组长度">
+        <button id="start-button">开始</button>
+        <div id="bit-selection-container">
+            <div id="bit-selection-message">玩家1，请选择一个位将其变为1：</div>
+        </div>
+        <div id="game-board"></div>
+        <div id="turn-indicator"></div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
